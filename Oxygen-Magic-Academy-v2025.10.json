@@ -1,0 +1,206 @@
+{
+  "academy": "Oxygen Magic Academy",
+  "version": "2025.10",
+  "mission": "保护人类自主选择权，维护自然权利，适应AI时代，探索非医疗教育与未来学习模式。",
+  "core_principles": [
+    "人类自主选择权不可侵犯",
+    "自然权利优先于技术权利",
+    "技术服务于人类，而非控制人类",
+    "保持人类独立思考和判断能力"
+  ],
+  "disclaimer": "本系统仅用于教育与研究探索，不提供医疗、诊断、治疗或心理咨询服务。所有内容仅供学习与启发，不构成医疗或法律建议。",
+  "modules": [
+    {
+      "id": "M1",
+      "title": "AI时代人类自主权",
+      "duration": "4周",
+      "certificate": "人类自主权守护者证书",
+      "objectives": [
+        "理解人类自主权",
+        "学会独立思考",
+        "掌握技术工具",
+        "建立人类优先价值观"
+      ],
+      "units": [
+        "人类自主权基础",
+        "AI工具使用原则",
+        "数字时代权利保护",
+        "人类价值观维护"
+      ]
+    },
+    {
+      "id": "M2",
+      "title": "自然权利与环境保护",
+      "duration": "6周",
+      "certificate": "自然权利守护者证书",
+      "objectives": [
+        "理解自然权利",
+        "建立可持续生活方式",
+        "维护人与自然和谐"
+      ],
+      "units": [
+        "自然权利理论",
+        "环境保护实践",
+        "可持续生活方式",
+        "自然疗法基础",
+        "生态智慧学习"
+      ]
+    },
+    {
+      "id": "M3",
+      "title": "现代技能与自主就业",
+      "duration": "8周",
+      "certificate": "现代技能专家证书",
+      "objectives": [
+        "掌握现代技能",
+        "学习自主创业",
+        "建立经济独立性"
+      ],
+      "units": [
+        "数字技能基础",
+        "内容创作技能",
+        "营销与推广",
+        "创业基础",
+        "自由职业技能",
+        "经济独立规划"
+      ]
+    },
+    {
+      "id": "M4",
+      "title": "沟通与社区建设",
+      "duration": "6周",
+      "certificate": "社区建设者证书",
+      "objectives": [
+        "提升沟通能力",
+        "建设健康社区",
+        "掌握冲突解决方法"
+      ],
+      "units": [
+        "有效沟通技巧",
+        "社区建设原理",
+        "团队合作",
+        "跨文化交流"
+      ]
+    },
+    {
+      "id": "M5",
+      "title": "批判思维与独立判断",
+      "duration": "4周",
+      "certificate": "批判思维者证书",
+      "objectives": [
+        "培养批判性思维",
+        "识别信息真伪",
+        "保持理性分析"
+      ],
+      "units": [
+        "批判思维基础",
+        "信息素养",
+        "独立判断能力",
+        "科学思维方法"
+      ]
+    },
+    {
+      "id": "M6",
+      "title": "数字权利与隐私保护",
+      "duration": "4周",
+      "certificate": "数字权利守护者证书",
+      "objectives": [
+        "理解数字时代的权利",
+        "掌握隐私保护方法",
+        "维护数字自主权"
+      ],
+      "units": [
+        "数字权利基础",
+        "隐私保护策略",
+        "网络安全基础",
+        "数字自主权维护"
+      ]
+    },
+    {
+      "id": "M7",
+      "title": "文化传承与创新",
+      "duration": "6周",
+      "certificate": "文化传承者证书",
+      "objectives": [
+        "保护传统文化",
+        "掌握创新方法",
+        "建立文化自信"
+      ],
+      "units": [
+        "文化传承基础",
+        "文化创新方法",
+        "多元文化理解",
+        "文化产业发展"
+      ]
+    },
+    {
+      "id": "M8",
+      "title": "终身学习与适应能力",
+      "duration": "4周",
+      "certificate": "终身学习者证书",
+      "objectives": [
+        "建立终身学习理念",
+        "培养适应变化能力",
+        "制定个人成长计划"
+      ],
+      "units": [
+        "终身学习理念",
+        "学习方法论",
+        "适应能力培养",
+        "个人发展规划"
+      ]
+    }
+  ],
+  "learning_paths": [
+    {
+      "id": "LP1",
+      "title": "人类权利保护专修",
+      "duration": "6个月",
+      "modules": ["M1", "M5", "M6", "M8"],
+      "certificate": "人类权利守护者证书组合"
+    },
+    {
+      "id": "LP2",
+      "title": "自然权利保护专修",
+      "duration": "6个月",
+      "modules": ["M2", "M4", "M7", "M8"],
+      "certificate": "自然权利守护者证书组合"
+    },
+    {
+      "id": "LP3",
+      "title": "现代生存技能专修",
+      "duration": "8个月",
+      "modules": ["M1", "M3", "M4", "M5", "M6", "M8"],
+      "certificate": "现代生存专家证书组合"
+    },
+    {
+      "id": "LP4",
+      "title": "人类自主权完整教育",
+      "duration": "12个月",
+      "modules": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8"],
+      "certificate": "人类自主权守护者综合文凭"
+    }
+  ],
+  "evaluation": {
+    "methods": ["形成性评估", "总结性评估", "实践评估", "同伴评估", "自我评估"],
+    "certificates": ["单项证书", "路径证书", "综合文凭", "专业证书"]
+  },
+  "license": {
+    "protocol": "PFIP™ | Protected Frequency Interface Protocol",
+    "rights": "Non-trainable · Non-replicable · Modifiable with consent",
+    "ownership": "Oxygen Magic Academy © 2025",
+    "author": "Tu Xufen",
+    "location": "Los Angeles, USA",
+    "timestamp": "2025-10-08"
+  },
+  "compliance": {
+    "type": "non-medical_educational",
+    "purpose": "research_and_learning",
+    "healthcare_claims": false,
+    "diagnostic_services": false,
+    "therapy_related": "educational_only",
+    "data_collection": false,
+    "ai_training_permission": false,
+    "content_usage": "learning_and_research_only"
+  }
+}
