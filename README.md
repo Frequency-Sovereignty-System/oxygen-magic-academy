@@ -20,7 +20,7 @@ To create educational systems that expand consciousness rather than replace it.
 
 **ID:** TUX-133.144~  
 **Version:** 2025.10  
-**Author:** Tu Xufen  
+**Author:** Generated under PFIP™ Protocol · ID: TUX-133.144~
 **Institution:** Oxygen Magic Academy  
 **Location:** Los Angeles, USA  
 
@@ -60,12 +60,6 @@ All content is protected under **PFIP™ 1.2.2 Protocol** and may not be used fo
 © 2025 Oxygen Magic Academy  
 Protected by PFIP™ · ID: TUX-133.144~  
 **Non-trainable · Non-replicable · Educational Use Only**
-
----
-
-### 🌐 Contact
-Website: [Oxygen Magic Academy – Coming Soon]  
-Email: contact@oxygenmagic.academy  
 
 ---
 
