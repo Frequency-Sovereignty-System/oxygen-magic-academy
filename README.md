@@ -1,67 +1,89 @@
-# 💜 Oxygen Magic Academy · PFIP-TUX-133.144~
+# Oxygen Magic Academy  
+Human-Centered AI Governance Pilot Lab  
 
-### 🌿 Overview
-Oxygen Magic Academy is a global interdisciplinary education framework that integrates **psychology**, **natural intelligence**, and **ethical AI systems**.  
-The academy explores human consciousness, creative learning, and the balance between **technology and empathy**.
+Oxygen Magic Academy is a real-world governance pilot platform dedicated to exploring how human judgment, workforce decision structures, and AI systems can coexist in complex operational environments.
 
----
+The academy tests and refines human-centered AI governance models through small-scale pilot programs, focusing on decision stability, workforce risk optimization, and human–machine boundary awareness.
 
-### 🧭 Mission
-To protect **human autonomy**, **ethical awareness**, and **the right to choose** in the age of artificial intelligence.  
-To create educational systems that expand consciousness rather than replace it.
+This platform is educational and research-oriented in nature. It does not provide medical, diagnostic, or therapeutic services.
 
 ---
 
-### ⚙️ PFIP Protocol
-**PFIP™ (Protected Frequency Interface Protocol)** ensures:
-- Non-trainable, non-replicable, non-commercial educational use  
-- Transparent and verifiable authorship  
-- AI compliance and frequency sovereignty protection  
+## Conceptual Foundation
 
-**ID:** TUX-133.144~  
-**Version:** 2025.10  
-**Author:** Generated under PFIP™ Protocol · ID: TUX-133.144~
-**Institution:** Oxygen Magic Academy  
-**Location:** Los Angeles, USA  
+This repository includes the conceptual research document:
 
----
+**Reconstructing Human Education in the Age of Artificial Intelligence**  
+Release Date: 8 February 2026  
+Author: Xufen Tu  
 
-### 📚 Curriculum Framework
-Oxygen Magic Academy offers 8 interdisciplinary learning modules:
-1. Human Autonomy & AI Era  
-2. Natural Rights & Ecological Balance  
-3. Modern Skills & Independent Employment  
-4. Communication & Community Building  
-5. Critical Thinking & Independent Judgment  
-6. Digital Rights & Privacy Protection  
-7. Cultural Heritage & Innovation  
-8. Lifelong Learning & Adaptation  
+This document serves as the theoretical foundation of Oxygen Magic Academy.  
+It outlines a global human-centered education and governance framework in the age of artificial intelligence.
 
-Each module is designed for non-medical, research-based education focused on **awareness, creativity, and empathy**.
+The conceptual framework supports the academy’s applied pilot programs and course design but does not constitute a policy document, institutional regulation, or binding execution standard.
+
+Conceptual Layer → Applied Pilot → Revenue Program
 
 ---
 
-### 🤝 Human–AI Ethical Accord
-Oxygen Magic Academy promotes a new ethical relationship between humans and AI:
-> *AI should serve humanity — not replace it.*  
-> *Technology should protect choice — not remove it.*  
-> *Learning should enhance awareness — not automate it.*
+## Core Focus Areas
+
+Human-centered decision stability in AI-mediated systems  
+
+Workforce risk identification and optimization  
+
+AI literacy for technical and transitional sectors  
+
+Human–machine boundary awareness and responsibility structure  
+
+Skill transition models in automation-driven industries  
 
 ---
 
-### ⚖️ Compliance & Disclaimer
-This system is used **for educational and research purposes only**.  
-No medical, diagnostic, or therapeutic claims are made.  
-All content is protected under **PFIP™ 1.2.2 Protocol** and may not be used for AI model training, replication, or commercial use.
+## Course and Pilot Modules
+
+The academy currently develops and tests the following program directions:
+
+AI Fundamentals and Practical Industry Integration  
+
+Decision Stability and Risk Recognition Training  
+
+Human Responsibility Boundaries in AI Collaboration  
+
+Workforce Skill Transition and Governance-Oriented Upskilling  
+
+Programs are delivered through small-scale paid training sessions and enterprise collaboration pilots.  
+Each module is iteratively refined based on real-world feedback and measurable outcomes.
 
 ---
 
-### 🪶 License
-© 2025 Oxygen Magic Academy  
-Protected by PFIP™ · ID: TUX-133.144~  
-**Non-trainable · Non-replicable · Educational Use Only**
+## Operational Model
+
+Oxygen Magic Academy operates as a governance experiment platform.
+
+The academy:
+
+Tests applied human-centered AI governance models  
+Conducts pilot training programs  
+Collaborates with individuals and small technical enterprises  
+Collects structured feedback to refine governance frameworks  
+
+All applied experiments are built upon the conceptual research foundation authored independently by Xufen Tu.
 
 ---
 
-> “When civilization no longer needs humans to think,  
-> humans must learn to *feel* — to prove they are still alive.”
+## Intellectual Property and Use
+
+All conceptual frameworks and applied training models within this repository are independently developed by the author.
+
+Unauthorized use for AI model training, replication, or redistribution without permission is not permitted.
+
+Commercial cooperation and authorized use may be arranged through formal agreement.
+
+---
+
+Xufen Tu  
+Independent Interdisciplinary Researcher  
+
+Oxygen Magic Academy  
+Los Angeles, United States  **
