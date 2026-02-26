@@ -15,8 +15,7 @@ This module addresses structural decision instability in enterprises operating w
 
 As automation increases process speed and scale, the impact of decision errors may expand correspondingly. Organizations integrating AI tools often encounter misalignment between strategic intent, operational execution, and accountability structures.
 
-This module establishes a structured reference framework for examining and stabilizing human-centered decision architecture in complex operational settings.
-
+This module establishes a structured reference framework for examining decision architecture in complex operational settings from a human-centered governance perspective.
 The conceptual foundation of this module aligns with ongoing research in human-centered AI governance and structural stability in complex systems.
 
 ---
