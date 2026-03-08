@@ -1,12 +1,13 @@
 Oxygen Magic Academy
 ---
-Human-Centered AI Governance Pilot Lab
+Oxygen Magic Academy
+Future Learning & Human-Centered AI Governance Pilot Lab
 
-Oxygen Magic Academy is an applied research and pilot platform focused on human-centered AI governance in complex operational environments.
+Oxygen Magic Academy is an applied research and experimental learning platform focused on human-centered AI governance in complex operational environments.
 
-The lab examines how human judgment, workforce decision structures, and AI-assisted systems interact within high-uncertainty, automation-driven contexts.
+The academy explores how human judgment, workforce decision structures, and AI-assisted systems interact within high-uncertainty, automation-driven contexts.
 
-Through structured pilot programs, the academy explores decision stability, responsibility allocation, and workforce risk optimization under AI-mediated workflows.
+Through structured pilot programs and exploratory learning environments, the platform examines decision stability, responsibility allocation, and workforce adaptation in AI-mediated systems.
 
 The platform is research-oriented and educational in nature. It does not provide medical, diagnostic, or therapeutic services.
 
