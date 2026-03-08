@@ -1,232 +1,595 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Oxygen Magic Academy | Human-Centered AI Governance Research</title>
+<title>Oxygen Magic Academy | Future Learning, Wellbeing, and Workforce Transition</title>
 
-<meta name="description" content="Oxygen Magic Academy is an independent research initiative exploring human-centered AI governance, complex decision systems, and future education frameworks.">
+<meta name="description" content="Oxygen Magic Academy is a future-oriented experimental academy exploring new learning models, human wellbeing, cognitive clarity, human judgment, and workforce transition in the age of AI.">
 
 <style>
 
+:root{
+  --bg:#f7f3ff;
+  --bg2:#efe8ff;
+  --white:#ffffff;
+  --text:#2f2b3a;
+  --muted:#6c6680;
+  --purple:#6b56b3;
+  --purple-light:#b9a6ff;
+  --lavender:#e8dfff;
+  --line:rgba(107,86,179,0.12);
+  --shadow:0 12px 40px rgba(76,52,145,0.10);
+  --max:1120px;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
 body{
-margin:0;
-font-family: Georgia, serif;
-background:#f6f2ff;
-color:#333;
+  margin:0;
+  font-family: Georgia, "Times New Roman", serif;
+  color:var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(185,166,255,0.35), transparent 28%),
+    radial-gradient(circle at top right, rgba(214,202,255,0.28), transparent 24%),
+    linear-gradient(180deg, #fbf9ff 0%, #f4efff 55%, #fcfbff 100%);
+  line-height:1.75;
 }
 
-header{
-text-align:center;
-padding:70px 20px 40px 20px;
+a{
+  color:inherit;
+  text-decoration:none;
 }
 
-.logo{
-width:340px;
-max-width:80%;
-margin-bottom:20px;
+img{
+  max-width:100%;
+  display:block;
 }
 
-h1{
-font-size:44px;
-margin:10px 0;
-color:#4a3c8c;
+.container{
+  width:min(var(--max), calc(100% - 32px));
+  margin:0 auto;
 }
 
-.subtitle{
-font-size:18px;
-color:#666;
-max-width:700px;
-margin:auto;
+.topbar{
+  position:sticky;
+  top:0;
+  z-index:50;
+  backdrop-filter:blur(14px);
+  background:rgba(251,249,255,0.86);
+  border-bottom:1px solid var(--line);
+}
+
+.nav{
+  min-height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  min-width:0;
+}
+
+.brand img{
+  width:52px;
+  height:52px;
+  object-fit:contain;
+  border-radius:14px;
+  background:rgba(255,255,255,0.85);
+  padding:4px;
+  box-shadow:var(--shadow);
+}
+
+.brand-text{
+  min-width:0;
+}
+
+.brand-text strong{
+  display:block;
+  color:var(--purple);
+  font-size:17px;
+  line-height:1.1;
+}
+
+.brand-text span{
+  display:block;
+  color:var(--muted);
+  font-size:12px;
+  margin-top:3px;
+}
+
+.nav-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  font-size:14px;
+  color:var(--muted);
+}
+
+.nav-links a:hover{
+  color:var(--purple);
+}
+
+.hero{
+  padding:72px 0 42px 0;
+  text-align:center;
+}
+
+.logo-large{
+  width:340px;
+  max-width:84%;
+  margin:0 auto 24px auto;
+  filter:drop-shadow(0 10px 30px rgba(90,66,165,0.12));
+}
+
+.hero h1{
+  margin:0;
+  font-size:clamp(38px, 6vw, 64px);
+  line-height:1.05;
+  color:var(--purple);
+}
+
+.hero-subtitle{
+  margin:18px auto 0 auto;
+  max-width:860px;
+  font-size:20px;
+  color:var(--muted);
+}
+
+.hero-summary{
+  margin:26px auto 0 auto;
+  max-width:900px;
+  font-size:18px;
+  color:#585265;
+}
+
+.hero-actions{
+  margin-top:30px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+}
+
+.button{
+  display:inline-block;
+  padding:13px 20px;
+  border-radius:999px;
+  font-size:15px;
+  font-weight:bold;
+  border:1px solid rgba(107,86,179,0.18);
+  box-shadow:var(--shadow);
+}
+
+.button.primary{
+  background:linear-gradient(135deg, #8f7be6 0%, #b9a6ff 100%);
+  color:#fff;
+}
+
+.button.secondary{
+  background:rgba(255,255,255,0.86);
+  color:var(--purple);
 }
 
 .section{
-max-width:1000px;
-margin:auto;
-padding:80px 20px;
-text-align:center;
+  padding:74px 0;
 }
 
-.section h2{
-font-size:32px;
-margin-bottom:25px;
-color:#4a3c8c;
+.card{
+  background:rgba(255,255,255,0.82);
+  border:1px solid var(--line);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+  padding:34px 26px;
 }
 
-.section p{
-font-size:18px;
-line-height:1.7;
-color:#555;
-max-width:760px;
-margin:auto;
+.section-title{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.section-title h2{
+  margin:0 0 12px 0;
+  color:var(--purple);
+  font-size:clamp(30px, 4vw, 42px);
+}
+
+.section-title p{
+  max-width:820px;
+  margin:0 auto;
+  font-size:18px;
+  color:var(--muted);
+}
+
+.two-col{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+  align-items:start;
+}
+
+.three-col{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:22px;
+}
+
+.feature-card{
+  background:rgba(255,255,255,0.82);
+  border:1px solid var(--line);
+  border-radius:22px;
+  box-shadow:var(--shadow);
+  padding:26px;
+}
+
+.feature-card h3{
+  margin:0 0 12px 0;
+  color:var(--purple);
+  font-size:24px;
+}
+
+.feature-card p{
+  margin:0;
+  font-size:17px;
+  color:#565161;
 }
 
 .diagram{
-width:100%;
-max-width:900px;
-margin-top:40px;
-border-radius:14px;
-box-shadow:0 10px 40px rgba(0,0,0,0.1);
+  width:100%;
+  max-width:920px;
+  margin:34px auto 0 auto;
+  border-radius:18px;
+  box-shadow:0 16px 50px rgba(0,0,0,0.10);
+}
+
+.center-text{
+  text-align:center;
+}
+
+.large-text{
+  max-width:900px;
+  margin:0 auto;
+  font-size:18px;
+  color:#565161;
+}
+
+.quote-box{
+  max-width:980px;
+  margin:0 auto;
+  background:rgba(255,255,255,0.82);
+  border:1px solid var(--line);
+  border-radius:26px;
+  box-shadow:var(--shadow);
+  padding:34px 28px;
+  text-align:center;
+}
+
+.quote-box p{
+  margin:0;
+  font-size:24px;
+  line-height:1.5;
+  color:#4c4470;
 }
 
 .reference{
-margin-top:30px;
-font-size:14px;
-color:#777;
+  margin-top:24px;
+  font-size:14px;
+  color:#7a728f;
+  text-align:center;
+  line-height:1.7;
 }
 
 footer{
-margin-top:120px;
-padding:50px;
-background:#eee9ff;
-text-align:center;
-font-size:14px;
-color:#666;
+  margin-top:34px;
+  background:#eee7ff;
+  border-top:1px solid var(--line);
+  padding:48px 20px;
+  text-align:center;
 }
 
-.contact{
-margin-top:25px;
+footer p{
+  margin:8px 0;
+  color:#6d6881;
 }
 
 .disclaimer{
-margin-top:40px;
-max-width:800px;
-margin-left:auto;
-margin-right:auto;
-font-size:13px;
-line-height:1.6;
-color:#777;
+  max-width:900px;
+  margin:26px auto 0 auto;
+  font-size:13px;
+  line-height:1.7;
+  color:#7c7592;
+}
+
+@media (max-width: 900px){
+  .two-col,
+  .three-col{
+    grid-template-columns:1fr;
+  }
+
+  .nav{
+    padding:10px 0;
+  }
+
+  .nav-links{
+    display:none;
+  }
+
+  .hero{
+    padding-top:56px;
+  }
+
+  .feature-card,
+  .card{
+    padding:24px 20px;
+  }
 }
 
 </style>
 
 </head>
-
 <body>
 
-<header>
+<div class="topbar">
+  <div class="container nav">
 
-<img src="logo.png" class="logo" alt="Oxygen Magic Academy Logo">
+    <div class="brand">
+      <img src="logo.png" alt="Oxygen Magic Academy logo">
+      <div class="brand-text">
+        <strong>Oxygen Magic Academy</strong>
+        <span>Future Learning · Wellbeing · Judgment</span>
+      </div>
+    </div>
 
-<h1>Oxygen Magic Academy</h1>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#learning">Learning</a>
+      <a href="#wellbeing">Wellbeing</a>
+      <a href="#research">Research</a>
+      <a href="#transition">Transition</a>
+      <a href="#contact">Contact</a>
+    </div>
 
-<p class="subtitle">
-Independent Research Initiative Exploring Human-Centered AI Governance, Complex Systems, and Future Education Frameworks
-</p>
-
-</header>
-
-
-<div class="section">
-
-<h2>Research Foundation</h2>
-
-<p>
-Oxygen Magic Academy explores the role of human judgment as a structural interface within high-complexity technological environments.  
-The research examines how decision stability, governance frameworks, and human cognitive boundaries interact in AI-mediated systems.
-</p>
-
-<img src="human-judgment-system-layer.png" class="diagram"
-alt="Human Judgment Structural Layer Diagram">
-
-<div class="reference">
-
-Research Reference:  
-Tu, X. (2026).  
-Human Judgment as an Irreducible Interface in High-Complexity Systems.  
-Zenodo. DOI:10.5281/zenodo.18573944
-
+  </div>
 </div>
 
-</div>
+<section class="hero">
+  <div class="container">
 
+    <img src="logo.png" alt="Oxygen Magic Academy logo" class="logo-large">
 
-<div class="section">
+    <h1>Oxygen Magic Academy</h1>
 
-<h2>Human-Centered AI Governance Framework</h2>
+    <p class="hero-subtitle">
+      A Future-Oriented Academy for New Learning, Human Wellbeing, and Workforce Transition in the Age of AI
+    </p>
 
-<p>
+    <p class="hero-summary">
+      Oxygen Magic Academy explores a new model of education beyond traditional universities. It combines human wellbeing, cognitive clarity, remote interaction, experimental learning environments, human judgment, and future-ready thinking to support learning, adaptation, and re-employment in a rapidly changing world.
+    </p>
 
-This research framework investigates how complex systems governance, AI infrastructures, and decision architectures interact through human judgment as a stabilizing structural layer.
+    <div class="hero-actions">
+      <a href="#learning" class="button primary">Explore Learning Model</a>
+      <a href="#research" class="button secondary">View Research Framework</a>
+    </div>
 
-The approach integrates interdisciplinary perspectives including complex systems theory, governance design, and human cognitive constraints.
+  </div>
+</section>
 
-</p>
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-title">
+      <h2>A New Academy Model</h2>
+      <p>
+        Oxygen Magic Academy is not designed as a conventional school. It is envisioned as an experimental academy for future learning, where education becomes more flexible, more human-centered, more adaptive, and more relevant to life and work in AI-transformed environments.
+      </p>
+    </div>
 
-<img src="ai-governance-research-framework.png"
-class="diagram"
-alt="Human Centered AI Governance Framework Diagram">
+    <div class="quote-box">
+      <p>
+        Future education should not only deliver information. It should help people stay clear, learn lightly, adapt intelligently, and rebuild confidence for new forms of work and life.
+      </p>
+    </div>
+  </div>
+</section>
 
-</div>
+<section class="section" id="learning">
+  <div class="container">
+    <div class="section-title">
+      <h2>What This Academy Cultivates</h2>
+      <p>
+        The academy focuses on developing practical human capacities that remain valuable even as technology changes rapidly. These are not only academic skills, but life, work, and judgment capacities for the future.
+      </p>
+    </div>
 
+    <div class="three-col">
 
-<div class="section">
+      <div class="feature-card">
+        <h3>Light and Engaged Learning</h3>
+        <p>
+          The academy explores more relaxed and immersive learning formats, including remote conversations, interactive discussions, focused environments, and experimental settings that support attention, curiosity, and continuous learning.
+        </p>
+      </div>
 
-<h2>System Architecture</h2>
+      <div class="feature-card">
+        <h3>Human Judgment and Decision Awareness</h3>
+        <p>
+          Learners are encouraged to strengthen judgment, understand complexity, and develop the ability to make more stable choices in uncertain technological environments.
+        </p>
+      </div>
 
-<p>
+      <div class="feature-card">
+        <h3>Re-employment and Future Adaptation</h3>
+        <p>
+          The academy explores how people can transition into new forms of work by cultivating transferable capacities such as cognitive clarity, decision awareness, system understanding, and adaptive learning.
+        </p>
+      </div>
 
-The Frequency Sovereignty System architecture provides a structural model connecting research frameworks, decentralized identity systems, and distributed knowledge infrastructures.
+    </div>
+  </div>
+</section>
 
-This architecture integrates research publications, identity anchoring systems, and open research repositories to maintain transparency and continuity.
+<section class="section" id="wellbeing">
+  <div class="container">
+    <div class="section-title">
+      <h2>Wellbeing and Experimental Learning Environments</h2>
+      <p>
+        Oxygen Magic Academy retains a strong interest in the relationship between human wellbeing and learning. Some early experimental sessions involved remote communication, study, and interaction in controlled breathing environments, including high-oxygen chambers, to observe how learning conditions may influence clarity, attention, and engagement.
+      </p>
+    </div>
 
-</p>
+    <div class="two-col">
 
-<img src="oxygen-magic-academy-system-architecture.png"
-class="diagram"
-alt="Frequency Sovereignty System Architecture Diagram">
+      <div class="card">
+        <h3 style="margin-top:0; color:#6b56b3;">Environmental Learning</h3>
+        <p class="large-text" style="max-width:none;">
+          The academy explores how surrounding conditions can support or shape learning experiences. Rather than treating education only as information transfer, this model considers environment, body state, attention, and human interaction as part of the learning process itself.
+        </p>
+      </div>
 
-</div>
+      <div class="card">
+        <h3 style="margin-top:0; color:#6b56b3;">Human Wellbeing as Learning Infrastructure</h3>
+        <p class="large-text" style="max-width:none;">
+          Human wellbeing is treated as part of educational design. Cognitive clarity, emotional steadiness, focused attention, and the ability to remain engaged are all seen as foundations for learning, adaptation, and future participation in work and society.
+        </p>
+      </div>
 
+    </div>
+  </div>
+</section>
 
-<div class="section">
+<section class="section" id="research">
+  <div class="container">
+    <div class="section-title">
+      <h2>Research Foundation</h2>
+      <p>
+        The academy’s current research direction connects future education with human judgment, complex systems, and governance structures in AI-mediated environments. This gives the academy a deeper foundation beyond traditional course-based teaching.
+      </p>
+    </div>
 
-<h2>Research Mission</h2>
+    <p class="large-text center-text">
+      Oxygen Magic Academy explores how human judgment functions as a stabilizing interface in high-complexity environments, and how education can prepare people to participate more responsibly, more clearly, and more adaptively in a world shaped by artificial intelligence.
+    </p>
 
-<p>
+    <img src="human-judgment-system-layer.png" class="diagram" alt="Human Judgment System Layer">
 
-Oxygen Magic Academy aims to develop new frameworks for education, governance, and human-AI collaboration in emerging technological environments.
+    <div class="reference">
+      Research Reference:<br>
+      Tu, X. (2026). <em>Human Judgment as an Irreducible Interface in High-Complexity Systems</em>.<br>
+      Zenodo. DOI: 10.5281/zenodo.18573944
+    </div>
+  </div>
+</section>
 
-The initiative explores long-term societal transformation including workforce transition, decision-making stability, and human cognitive resilience in AI-integrated systems.
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Human-Centered Governance for Future Education</h2>
+      <p>
+        The academy’s research framework examines how learning, governance, human decision-making, and technological systems can be reconnected in more responsible ways.
+      </p>
+    </div>
 
-</p>
+    <img src="ai-governance-research-framework.png" class="diagram" alt="AI Governance Research Framework">
+  </div>
+</section>
 
-</div>
+<section class="section" id="transition">
+  <div class="container">
+    <div class="section-title">
+      <h2>Learning for Re-employment and Transition</h2>
+      <p>
+        One of the academy’s long-term aims is to support people facing technological change, employment shifts, and educational mismatch. Rather than preparing people only for old institutions, the academy explores new educational paths for adaptation, resilience, and future participation.
+      </p>
+    </div>
 
+    <div class="three-col">
 
-<footer>
+      <div class="feature-card">
+        <h3>For Individuals</h3>
+        <p>
+          Support new learning pathways for people who want to rebuild confidence, explore emerging fields, and remain active in changing work environments.
+        </p>
+      </div>
 
-<p>© 2026 Oxygen Magic Academy</p>
+      <div class="feature-card">
+        <h3>For Organizations</h3>
+        <p>
+          Explore how human-centered education and clearer decision structures can support workforce transition, digital adaptation, and organizational stability.
+        </p>
+      </div>
 
-<p>
-Independent Interdisciplinary Research Initiative
-</p>
+      <div class="feature-card">
+        <h3>For Future Society</h3>
+        <p>
+          Contribute to new educational models that may one day go beyond the traditional university, creating lighter, more adaptive, and more human-centered forms of learning.
+        </p>
+      </div>
 
-<div class="contact">
+    </div>
+  </div>
+</section>
 
-<p>Contact</p>
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>System Architecture</h2>
+      <p>
+        The broader system architecture connects research frameworks, identity continuity, and distributed knowledge infrastructure. This structure supports the academy’s long-term continuity as a future-facing learning and research initiative.
+      </p>
+    </div>
 
-<p>contact@bb369tech.com</p>
+    <img src="oxygen-magic-academy-system-architecture.png" class="diagram" alt="Oxygen Magic Academy System Architecture">
+  </div>
+</section>
 
-<p>oxygenmagicacademy@gmail.com</p>
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Long-Term Vision</h2>
+      <p>
+        Oxygen Magic Academy imagines a future in which learning becomes lighter, more flexible, more embodied, more interactive, and more connected to real human adaptation. It seeks to explore a new academy model for people learning how to live, work, and think well in the age of AI.
+      </p>
+    </div>
 
-</div>
+    <div class="quote-box">
+      <p>
+        The future academy is not only a place for degrees. It is a place for clarity, transition, human judgment, new learning, and the rebuilding of confidence for a changing world.
+      </p>
+    </div>
+  </div>
+</section>
 
+<footer id="contact">
+  <p><strong>Oxygen Magic Academy</strong></p>
+  <p>Future Learning · Human Wellbeing · Workforce Transition · Human Judgment</p>
 
-<div class="disclaimer">
+  <div class="contact">
+    <p>Contact</p>
+    <p>contact@bb369tech.com</p>
+    <p>oxygenmagicacademy@gmail.com</p>
+  </div>
 
-This website presents independent academic and conceptual research.  
-The materials provided are for informational and research purposes only and do not constitute professional advice, medical services, or operational system deployment.
+  <div class="disclaimer">
+    This website presents independent educational and research-oriented materials for informational purposes only.
+    It does not provide medical diagnosis, treatment, psychotherapy, legal advice, or regulated professional services.
+    References to breathing environments, high-oxygen settings, and experimental learning conditions are presented as part of background context and exploratory educational research, not as medical claims or clinical services.
+  </div>
 
-Oxygen Magic Academy is an experimental research initiative exploring interdisciplinary frameworks related to human cognition, governance, and technological transformation.
-
-</div>
-
+  <p style="margin-top:22px;">© 2026 Oxygen Magic Academy. All rights reserved.</p>
 </footer>
 
 </body>
-
 </html>
