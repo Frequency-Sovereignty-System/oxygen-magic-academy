@@ -3,6 +3,8 @@ Oxygen Magic Academy
 Oxygen Magic Academy
 Future Learning & Human-Centered AI Governance Pilot Lab
 
+Part of the Frequency Sovereignty research infrastructure.
+
 Oxygen Magic Academy is an applied research and experimental learning platform focused on human-centered AI governance in complex operational environments.
 
 The academy explores how human judgment, workforce decision structures, and AI-assisted systems interact within high-uncertainty, automation-driven contexts.
