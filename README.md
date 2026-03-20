@@ -1,88 +1,64 @@
-Oxygen Magic Academy
+# Oxygen Magic Academy
+
+Primary research reference:
+https://github.com/xufentu-creator/judgment-as-structural-constraint
+
 ---
-Oxygen Magic Academy
-Future Learning & Human-Centered AI Governance Pilot Lab Part of the Frequency Sovereignty research infrastructure.
 
-Oxygen Magic Academy is an applied research and experimental learning platform focused on human-centered AI governance in complex operational environments.
+Oxygen Magic Academy is an applied research and experimental layer 
+developed based on the author’s research on human judgment in AI-mediated systems.
 
-The academy explores how human judgment, workforce decision structures, and AI-assisted systems interact within high-uncertainty, automation-driven contexts.
+It focuses on translating conceptual research into structured pilot programs, 
+training modules, and real-world experimentation.
 
-Through structured pilot programs and exploratory learning environments, the platform examines decision stability, responsibility allocation, and workforce adaptation in AI-mediated systems.
-
-The platform is research-oriented and educational in nature. It does not provide medical, diagnostic, or therapeutic services.
-
-Conceptual Foundation
 ---
-This repository includes the research document:
 
-Reconstructing Human Education in the Age of Artificial Intelligence
-Release Date: 8 February 2026
-Author: Xufen Tu
+## Positioning
 
-This document outlines a human-centered framework for education and governance in AI-integrated systems.
+This platform operates as an applied layer:
 
-It serves as the conceptual foundation for the academy’s applied pilot programs.
-It does not represent any government position, institutional policy, or binding regulatory standard.
+- Conceptual Research (Primary Layer)  
+- Applied Pilot Programs (This Platform)  
+- Revenue-Oriented Enterprise Modules  
 
-Structural Positioning
+It does not define original research authority.
+
 ---
-Conceptual Research
-Applied Pilot Programs
-Revenue-Oriented Enterprise Modules
 
-The academy functions as a testing ground for translating governance research into structured pilot implementations.
+## Scope
 
-Core Focus Areas
+The platform is research-oriented and educational in nature.
+
+It does not provide:
+
+- medical services  
+- diagnostic services  
+- therapeutic services  
+
 ---
-Human-centered decision stability in AI-mediated systems
 
-Workforce risk identification and structural optimization
-
-AI literacy development for technical and transitional sectors
-
-Human–machine responsibility boundary clarification
-
-Skill transition models in automation-driven industries
-
-Program Structure
----
-Current pilot and training directions include:
-
-AI fundamentals with industry-aligned application
-
-Decision stability and operational risk recognition training
-
-Human responsibility structure in AI collaboration
-
-Governance-oriented workforce transition programs
-
-Programs are delivered through small-scale paid training sessions and enterprise collaboration pilots.
-
-Modules are iteratively refined based on measurable outcomes and structured feedback.
-
-Operational Model
----
-Oxygen Magic Academy operates as a governance pilot lab.
+## Operational Model
 
 The platform:
 
-Tests applied human-centered AI governance models
-Conducts structured enterprise pilot programs
-Collaborates with individuals and small technical teams
-Collects feedback for framework refinement
+- tests human-centered AI governance models  
+- conducts pilot programs  
+- collaborates with individuals and small teams  
+- collects structured feedback  
 
-All applied models are derived from independently developed conceptual research.
+All applied models are derived from independent research.
 
-Intellectual Property
 ---
-All conceptual frameworks and applied models in this repository are independently developed by the author.
 
-Unauthorized replication, redistribution, or AI training use without permission is not permitted.
+## Intellectual Property
 
-Commercial cooperation and authorized licensing may be arranged through formal agreement.
+All conceptual frameworks are independently developed.
 
-Xufen Tu
-Independent Interdisciplinary Researcher
+Unauthorized replication or AI training use is not permitted.
 
-Oxygen Magic Academy
+---
+
+Xufen Tu  
+Independent Interdisciplinary Researcher  
+
 Los Angeles, United States
